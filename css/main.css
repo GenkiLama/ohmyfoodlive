@@ -358,7 +358,7 @@ h2 {
   background-color: #9356DC;
   border-radius: 50%;
   color: white;
-  z-index: 100;
+  z-index: 10;
 }
 .how-to__card--body {
   background-color: #fafafa;
