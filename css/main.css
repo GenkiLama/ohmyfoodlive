@@ -476,6 +476,10 @@ h2 {
   position: relative;
   margin-bottom: 1rem;
   font-weight: 300;
+  animation: popsIn 1s;
+  animation-timing-function: cubic-bezier(0.4, 1.38, 0.24, 0.92);
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 .menu__list--title::before {
   content: "";
