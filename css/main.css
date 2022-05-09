@@ -32,6 +32,7 @@
   }
   100% {
     transform: scale(1);
+    opacity: 1;
   }
 }
 * {
@@ -241,6 +242,7 @@ h2 {
   }
   100% {
     transform: scale(1);
+    opacity: 1;
   }
 }
 @keyframes loading {
@@ -277,6 +279,7 @@ h2 {
   }
   100% {
     transform: scale(1);
+    opacity: 1;
   }
 }
 .loading {
@@ -492,6 +495,8 @@ h2 {
   margin: 2rem 0;
   animation: popsIn 1s;
   animation-timing-function: cubic-bezier(0.4, 1.38, 0.24, 0.92);
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 .menu__list--item__content {
   padding: 1rem;
@@ -577,5 +582,5 @@ h2 {
 }
 
 .delay-9 {
-  animation-delay: 0.8s;
+  animation-delay: 1.8s;
 }
